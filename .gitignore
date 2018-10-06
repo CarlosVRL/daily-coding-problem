@@ -1,3 +1,7 @@
 # Intellij IDE
 daily-coding-problem.iml
 .idea
+
+# Python Cache
+__pycache__
+*.pyc
