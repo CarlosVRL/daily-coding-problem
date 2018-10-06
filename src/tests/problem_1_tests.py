@@ -29,6 +29,11 @@ class TestStringMethods(unittest.TestCase):
         k = 3
         self.assertEqual(problem_1.check_numbers_for_sum(numbers, k), False)
 
+    def test_passes_problem_scenario(self):
+        numbers = [10, 15, 3, 7]
+        k = 17
+        self.assertEqual(problem_1.check_numbers_for_sum(numbers, k), True)
+
 
 if __name__ == '__main__':
     unittest.main()
