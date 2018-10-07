@@ -17,14 +17,21 @@ def product_of_numbers_without_index(numbers):
 
     res = []
 
-    running_product = 1
-    for number in numbers:
-        running_product = running_product * number
+    for outer_number in numbers:
 
-    for number in numbers:
-        if number != 0:
-            res.append(running_product / number)
-        else:
-            res.append(running_product)
+        running_product = 1
+        element_found = False
+
+        for inner_number in numbers:
+
+            # Skip the accumulation for first instance of value at index
+            if inner_number == outer_number and not element_found:
+                element_found = True
+                continue
+
+            if outer_number != inner_number:
+                running_product = running_product * inner_number
+
+        res.append(running_product)
 
     return res
