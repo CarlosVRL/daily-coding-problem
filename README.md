@@ -7,6 +7,7 @@ After cloning the repo, navigate to the root folder and run all tests with:
 ```
 make test
 ```
+If you don't have `make` installed, you can also run the shell commands in the Makefile.
 
 ### Table of Contents
 ID | Description | Solution | Tests |
