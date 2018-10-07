@@ -2,6 +2,11 @@
 ## Solutions in Python for Programming Interview Problems
 Coding Prompts provided by [Daily Coding Problem](https://www.dailycodingproblem.com)
 
+## Usage
+```
+make test
+```
+
 ### Table of Contents
 ID | Description | Solution | Tests |
 --- | --- | --- | --- |
