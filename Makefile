@@ -6,12 +6,12 @@ test: problem_1 \
 
 problem_1:
 	${INFO} "Test Problem 1"
-	@ (cd src/tests ; python problem_1_tests.py)
+	@ (cd src/tests ; python problem_1_tests.py -v)
 	${INFO} "Complete!"
 
 problem_2:
 	${INFO} "Test Problem 2"
-	@ (cd src/tests ; python problem_2_tests.py)
+	@ (cd src/tests ; python problem_2_tests.py -v)
 	${INFO} "Complete!"
 
 # Output Formatting

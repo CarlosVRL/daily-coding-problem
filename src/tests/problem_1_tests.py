@@ -7,7 +7,7 @@ sys.path.append("../problems")
 import problem_1
 
 
-class TestStringMethods(unittest.TestCase):
+class TestMethods(unittest.TestCase):
 
     def test_simple_case_is_valid(self):
         numbers = [1, 2]

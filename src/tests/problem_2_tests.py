@@ -1,5 +1,5 @@
 """
-Module problem_1 tests
+Module problem_2 tests
 """
 import unittest
 import sys
@@ -7,7 +7,7 @@ sys.path.append("../problems")
 import problem_2
 
 
-class TestStringMethods(unittest.TestCase):
+class TestMethods(unittest.TestCase):
 
     def test_simple_case_is_valid(self):
         expected_numbers = [2, 3, 6]
