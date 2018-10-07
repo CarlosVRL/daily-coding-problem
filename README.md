@@ -3,6 +3,7 @@
 Coding Prompts provided by [Daily Coding Problem](https://www.dailycodingproblem.com)
 
 ## Usage
+After cloning the repo, navigate to the root folder and run all tests with:
 ```
 make test
 ```
