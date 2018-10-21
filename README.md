@@ -7,8 +7,11 @@ After cloning the repo, navigate to the root folder and run all tests with:
 ```
 make test
 ```
-If you don't have `make` installed, you can also run the shell commands in the Makefile.
-
+If you don't have `make` installed, you can also run individual tests with the command line.
+```
+# Executed from src/tests
+python problem_1_tests.py -v
+```
 ### Table of Contents
 ID | Description | Solution | Tests |
 --- | --- | --- | --- |
