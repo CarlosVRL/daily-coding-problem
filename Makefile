@@ -2,7 +2,8 @@
 
 # Run All Tests
 test: problem_1 \
-	  problem_2
+	  problem_2 \
+	  problem_29
 
 problem_1:
 	${INFO} "Test Problem 1"
@@ -12,6 +13,11 @@ problem_1:
 problem_2:
 	${INFO} "Test Problem 2"
 	@ (cd src/tests ; python problem_2_tests.py -v)
+	${INFO} "Complete!"
+
+problem_29:
+	${INFO} "Test Problem 29"
+	@ (cd src/tests ; python problem_29_tests.py -v)
 	${INFO} "Complete!"
 
 # Output Formatting
