@@ -10,10 +10,10 @@ def invert_binary_tree(node):
     inverted_node = Node(node.val)
 
     if node.right:
-        inverted_node.left = Node(node.right.val)
+        inverted_node.left = invert_binary_tree(node.right)
 
     if node.left:
-        inverted_node.right = Node(node.left.val)
+        inverted_node.right = invert_binary_tree(node.left)
 
     return inverted_node
 
